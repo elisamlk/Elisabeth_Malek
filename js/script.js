@@ -82,3 +82,8 @@ class StickyNavigation {
   }
   
   new StickyNavigation();
+
+  $('h1 h2').delay(500).animate({
+    'opacity':'1',
+    'top': '50%'
+  },1000);

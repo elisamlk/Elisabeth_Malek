@@ -4,6 +4,10 @@
   margin: 0;
 }
 
+body {
+  font-family: "Century Gothic", "Lato", sans-serif;
+}
+
 a {
   text-decoration: none;
 }
@@ -55,7 +59,7 @@ header {
   font-size: 0.8rem;
   &:hover {
     color: white;
-    background: rgba(102, 177, 241, 0.8);
+    background: black;
     transition: all 0.5s ease;
   }
 }
@@ -65,10 +69,32 @@ header {
   bottom: 0;
   width: 0;
   height: 6px;
-  background: #66b1f1;
+  background: black;
   transition: left 0.3s ease;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0;
+  letter-spacing: 1rem;
+  padding-bottom: 1em;
+}
+
+h2 {
+  font-size: 1.5rem;
+  letter-spacing: 0.3rem;
+  opacity: 0.6;
 }
 
 #tab-about {
   background-color: #66b1f1;
+}
+
+@media screen and (max-width: 576px) {
+  h1 {
+    font-size: large;
+  }
+  h2 {
+    font-size: medium;
+  }
 }
