@@ -319,7 +319,7 @@ h3 {
   }
 }
 .wrapper {
-  width: 715px;
+  width: 100%;
   background: #fff;
   border-radius: 5px;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
@@ -443,7 +443,7 @@ form .button-area {
   display: none;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .wrapper header {
     text-align: center;
   }
