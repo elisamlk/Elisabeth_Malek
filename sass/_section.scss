@@ -5,25 +5,23 @@ h3 {
   padding-bottom: 1em;
 }
 
-#tab-portfolio{
-    background-color: lightgray;
+#tab-portfolio {
+  background-color: #f1f1f1;
 }
 
-@media screen and (max-width: 576px) {
-  h3 {
-    font-size: 1em;
-  }
+#tab-about {
+  background-color: #f1f1f1;
 }
 
 .demo-gallery > ul {
   margin-bottom: 0;
   padding-left: 15px;
-  padding:0;
+  padding: 0;
 }
 
 .demo-gallery > ul > li {
   margin-bottom: 15px;
-  width: 180px;
+  width: 350px;
   display: inline-block;
   margin-right: 15px;
   list-style: outside none none;
@@ -144,4 +142,14 @@ h3 {
 
 .demo-gallery.dark > ul > li a {
   border: 3px solid #04070a;
+}
+
+@media screen and (max-width: 576px) {
+  h3 {
+    font-size: 1em;
+  }
+
+  .demo-gallery > ul > li {
+    width: 320px;
+  }
 }

@@ -78,16 +78,13 @@ h1 {
   margin: 0;
   letter-spacing: 1rem;
   padding-bottom: 1em;
+  opacity: 0.6;
 }
 
 h2 {
   font-size: 1.5rem;
   letter-spacing: 0.3rem;
   opacity: 0.6;
-}
-
-#tab-about {
-  background-color: #66b1f1;
 }
 
 @media screen and (max-width: 576px) {
