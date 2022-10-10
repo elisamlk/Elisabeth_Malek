@@ -383,12 +383,12 @@ form .message textarea {
 .field input:focus,
 .message textarea:focus {
   padding-left: 47px;
-  border: 2px solid #0D6EFD;
+  border: 2px solid #0d6efd;
 }
 
 .field input:focus ~ i,
 .message textarea:focus ~ i {
-  color: #0D6EFD;
+  color: #0d6efd;
 }
 
 form .message {
@@ -430,7 +430,7 @@ form .button-area {
   cursor: pointer;
   border-radius: 5px;
   padding: 13px 25px;
-  background: #0D6EFD;
+  background: #0d6efd;
 }
 
 .button-area button:hover {
@@ -481,6 +481,11 @@ form .button-area {
   .button-area span {
     margin: 20px 0 0;
     text-align: center;
+  }
+
+  .et-hero-tabs,
+.et-slide {
+    padding: 0;
   }
 }
 
