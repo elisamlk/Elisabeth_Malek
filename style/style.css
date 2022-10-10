@@ -178,6 +178,10 @@ h3 {
   background-color: #f1f1f1;
 }
 
+footer {
+  background-color: #1c1f1e;
+}
+
 .demo-gallery > ul {
   margin-bottom: 0;
   padding-left: 15px;
@@ -318,6 +322,52 @@ h3 {
     width: 320px;
   }
 }
+ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 5em;
+}
+ul li {
+  position: relative;
+}
+ul li:hover svg {
+  stroke: black;
+  stroke-width: 4px;
+}
+ul svg {
+  width: 85%;
+  fill: transparent;
+  transform: rotate(-90deg);
+}
+ul circle {
+  stroke-width: 1px;
+  stroke: lightgrey;
+}
+ul .cbar {
+  stroke-width: 3px;
+  stroke: black;
+  stroke-linecap: round;
+}
+ul span,
+ul small {
+  position: absolute;
+  display: block;
+  width: 100%;
+  top: 52%;
+  transition-duration: 0.3s;
+  color: black;
+}
+ul span {
+  top: 40%;
+  border: none;
+}
+
 .wrapper {
   width: 100%;
   background: #fff;
