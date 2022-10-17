@@ -433,12 +433,12 @@ form .message textarea {
 .field input:focus,
 .message textarea:focus {
   padding-left: 47px;
-  border: 2px solid #0d6efd;
+  border: 2px solid black;
 }
 
 .field input:focus ~ i,
 .message textarea:focus ~ i {
-  color: #0d6efd;
+  color: black;
 }
 
 form .message {
@@ -464,33 +464,6 @@ form .message textarea::-webkit-scrollbar {
 
 .message textarea:focus {
   padding-top: 14px;
-}
-
-form .button-area {
-  margin: 25px 0;
-  display: flex;
-  align-items: center;
-}
-
-.button-area button {
-  color: #fff;
-  border: none;
-  outline: none;
-  font-size: 18px;
-  cursor: pointer;
-  border-radius: 5px;
-  padding: 13px 25px;
-  background: #0d6efd;
-}
-
-.button-area button:hover {
-  background: #025ce3;
-}
-
-.button-area span {
-  font-size: 17px;
-  margin-left: 30px;
-  display: none;
 }
 
 @media (max-width: 768px) {
@@ -520,17 +493,6 @@ form .button-area {
   form .button-area {
     margin-top: 20px;
     flex-direction: column;
-  }
-
-  .button-area button {
-    width: 100%;
-    padding: 11px 0;
-    font-size: 16px;
-  }
-
-  .button-area span {
-    margin: 20px 0 0;
-    text-align: center;
   }
 
   .et-hero-tabs,
