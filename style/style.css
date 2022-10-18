@@ -93,10 +93,13 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   position: relative;
   text-align: center;
   padding: 0 2em;
+}
+
+#tab-contact {
+  height: 100vh;
 }
 
 .et-hero-tabs-container {
@@ -161,6 +164,12 @@ h2 {
 
   h2 {
     font-size: medium;
+  }
+}
+@media screen and (min-width: 768px) {
+  #tab-about,
+#tab-portfolio {
+    height: 100vh;
   }
 }
 h3 {
@@ -319,7 +328,7 @@ footer {
   }
 
   .demo-gallery > ul > li {
-    width: 320px;
+    width: 300px;
   }
 }
 ul {
