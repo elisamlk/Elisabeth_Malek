@@ -71,8 +71,22 @@ span {
 
 body {
   font-family: "Century Gothic", "Lato", sans-serif;
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
 }
 
+html {
+  height: -webkit-fill-available;
+}
+
+/* Avoid Chrome to see Safari hack */
+@supports (-webkit-touch-callout: none) {
+  body {
+    /* The hack for Safari */
+    min-height: -webkit-fill-available;
+  }
+}
 a {
   text-decoration: none;
 }
@@ -85,6 +99,7 @@ header {
   background-repeat: no-repeat;
   /* Do not repeat the image */
   background-size: cover;
+  justify-content: center;
 }
 
 .et-hero-tabs,
@@ -176,7 +191,6 @@ h3 {
   font-size: 1.5em;
   margin: 0;
   letter-spacing: 1rem;
-  padding-bottom: 1em;
 }
 
 #tab-portfolio {
@@ -345,7 +359,7 @@ ul li:hover svg {
   stroke-width: 4px;
 }
 ul svg {
-  width: 85%;
+  width: 65%;
   fill: transparent;
   transform: rotate(-90deg);
 }

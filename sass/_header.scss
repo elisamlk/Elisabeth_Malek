@@ -33,6 +33,7 @@ header {
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
+  justify-content: center;
 }
 
 .et-hero-tabs,
@@ -46,6 +47,8 @@ header {
   text-align: center;
   padding: 0 2em;
 }
+
+
 
 #tab-contact {
   height: 100vh;
