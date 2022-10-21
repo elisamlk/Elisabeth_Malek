@@ -197,6 +197,9 @@ h3 {
 #tab-about {
   background-color: #fff;
 }
+#tab-about p {
+  padding: 2em;
+}
 
 .demo-gallery > ul {
   margin-bottom: 0;
@@ -337,7 +340,13 @@ h3 {
   .demo-gallery > ul > li {
     width: 300px;
   }
-
+}
+@media screen and (min-width: 768px) {
+  p {
+    font-size: 1.5em;
+  }
+}
+@media screen and (max-width: 768px) {
   h3 {
     margin-top: 2em;
   }
