@@ -271,6 +271,9 @@ h3 {
   justify-content: space-around;
   flex-wrap: wrap;
 }
+.portfolio-display li {
+  padding: 15px;
+}
 
 .container {
   position: relative;
@@ -281,8 +284,6 @@ h3 {
 
 .overlay {
   position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0);
@@ -346,7 +347,11 @@ img {
 }
 
 @media screen and (max-width: 576px) {
-  img {
+  img,
+.container,
+.title,
+.button,
+.button a {
     width: 300px;
   }
 }
@@ -481,6 +486,9 @@ form .message textarea::-webkit-scrollbar {
 .et-slide {
     padding: 0;
   }
+}
+footer {
+  background-color: #1B1B1B;
 }
 
 /*# sourceMappingURL=style.map */

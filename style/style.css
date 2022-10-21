@@ -487,5 +487,40 @@ form .message textarea::-webkit-scrollbar {
     padding: 0;
   }
 }
+footer {
+  background-color: #1b1b1b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+footer h1,
+footer i,
+footer a, footer p {
+  color: white;
+  opacity: 0.5;
+  font-size: medium;
+  margin-right: 5px;
+}
+footer a {
+  text-decoration: none;
+}
+footer .mail {
+  margin-bottom: 5px;
+}
+footer .disclaim {
+  font-style: italic;
+  margin-top: 10px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 576px) {
+  footer h1 {
+    font-size: small;
+    letter-spacing: 0.7rem;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
