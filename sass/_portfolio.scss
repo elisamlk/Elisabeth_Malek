@@ -82,3 +82,12 @@ img {
   opacity: 1;
 }
 
+@media screen and (max-width: 576px) {
+  img,
+  .container,
+  .title,
+  .button,
+  .button a {
+    width: 300px;
+  }
+}

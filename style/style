@@ -346,11 +346,7 @@ img {
 }
 
 @media screen and (max-width: 576px) {
-  img,
-.container,
-.title,
-.button,
-.button a {
+  img {
     width: 300px;
   }
 }
@@ -487,4 +483,4 @@ form .message textarea::-webkit-scrollbar {
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.map */
