@@ -1,0 +1,18 @@
+img {
+  width: 25em;
+  padding:1em;
+  object-fit: cover;
+}
+
+.portfolio-display {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 576px) {
+ img{
+    width:20em;
+ }
+  }
