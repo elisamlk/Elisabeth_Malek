@@ -8,8 +8,10 @@
 .container {
   position: relative;
   margin-top: 50px;
-  width: 500px;
-  height: 300px;
+  //   width: 500px;
+  //   height: 300px;
+  width: 320px;
+  height: 200px;
 }
 
 .overlay {
@@ -29,15 +31,17 @@
 
 img {
   position: absolute;
-  width: 500px;
-  height: 300px;
+  //   width: 500px;
+  //   height: 300px;
+  width: 320px;
+  height: 200px;
   left: 0;
   object-fit: cover;
 }
 
 .title {
   position: absolute;
-  width: 500px;
+  width: 320px;
   left: 0;
   top: 120px;
   font-weight: 700;
@@ -57,16 +61,16 @@ img {
 
 .button {
   position: absolute;
-  width: 500px;
+  width: 320px;
   left: 0;
-  top: 180px;
+  top: 150px;
   text-align: center;
   opacity: 0;
   transition: opacity 0.35s ease;
 }
 
 .button a {
-  width: 200px;
+  width: 320px;
   padding: 12px 48px;
   text-align: center;
   color: white;
@@ -78,8 +82,3 @@ img {
   opacity: 1;
 }
 
-// @media screen and (max-width: 576px) {
-//  img{
-//     width:20em;
-//  }
-//   }
