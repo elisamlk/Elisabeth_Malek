@@ -48,9 +48,9 @@ header {
   padding: 0 2em;
 }
 
-#tab-contact {
-  height: 100vh;
-}
+// #tab-contact {
+//   height: 100vh;
+// }
 
 .et-hero-tabs-container {
   display: flex;
@@ -118,7 +118,8 @@ h2 {
 
 @media screen and (min-width: 768px) {
   #tab-about,
-  #tab-portfolio {
+  #tab-portfolio,
+  #tab-contact {
     height: 100vh;
   }
 }
