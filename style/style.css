@@ -199,6 +199,8 @@ h3 {
 }
 #tab-about p {
   padding: 2em;
+  font-weight: 100;
+  letter-spacing: 0.1rem;
 }
 
 @media screen and (max-width: 576px) {
@@ -497,7 +499,8 @@ footer {
 }
 footer h1,
 footer i,
-footer a, footer p {
+footer a,
+footer p {
   color: white;
   opacity: 0.5;
   font-size: medium;
