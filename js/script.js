@@ -127,6 +127,13 @@ new StickyNavigation();
     });
 }.call(this));
 
-$(".top").click(function () {
-  $("html, body").animate({ scrollTop: "0" }, 1000);
+$(function () {
+  $(".more").on("click", function (e) {
+    $("html, body").animate(
+      {
+        scrollTop: $("#tab-about").offset().top,
+      },
+      500
+    );
+  });
 });
